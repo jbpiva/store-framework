@@ -28,15 +28,15 @@
   },
 
   "flex-layout.col#right": {
-    "props": { 
-      "verticalAlign": "middle",
-      "preventVerticalStretch": 0
-    },
     "children": [
       "product-name",
       "product-price",
       "buy-button"
-    ]
+    ],
+    "props": { 
+      "preventVerticalStretch": 1,
+      "verticalAlign": "middle"
+    }
   },
   "product-name": {
     "props": {
@@ -47,7 +47,7 @@
   "product-price": {
     "props": {
       "showSavings": true,
-      "showListPrice": false
+      "showListPrice": true
     }
   },
   "buy-button": {
