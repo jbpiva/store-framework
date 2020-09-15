@@ -38,6 +38,7 @@
       "product-name",
       "product-identifier.product",
       "product-price",
+      "buy-button",
       "flex-layout.row#qty-sku"
     ],
     "props": { 
@@ -48,8 +49,7 @@
   "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
-      "product-quantity",
-      "shipping-simulator"
+      "product-quantity"
     ]
   },
 
@@ -75,6 +75,12 @@
     "props": {
       "showSavings": true,
       "showListPrice": true
+    }
+  },
+  "buy-button": {
+    "props": {
+      "isOneClickBuy": true,
+      "showTooltipOnSkuNotSelected": false
     }
   }
 }
