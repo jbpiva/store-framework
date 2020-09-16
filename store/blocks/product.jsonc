@@ -35,6 +35,13 @@
     ]
   },
 
+  "product-brand": {
+    "props": {
+      "displayMode": "logo",
+      "height": 30
+    }
+  },
+
   "product-images": {
     "props": {
       "displayThumbnailsArrows": true
@@ -64,7 +71,10 @@
 
   "sku-selector": {
     "props": {
-      "hideImpossibleCombinations": false
+      "hideImpossibleCombinations": false,
+      "visibleVariations": [],
+      "showVariationsErrorMessage": true
+
     }
   },
 
